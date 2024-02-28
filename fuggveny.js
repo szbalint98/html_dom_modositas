@@ -57,10 +57,11 @@ export function legdragabbneve(lista){
             
             if (lista[max].ar<lista[index].ar) {
                     max=index;
-                    maxneve=lista[max]
+                    
             }
         
     }
+    maxneve=lista[max].tipus
     return maxneve
 }
 export function osszeg2(lista){
