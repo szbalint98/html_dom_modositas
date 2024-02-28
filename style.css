@@ -1,2 +1,15 @@
-#dives{padding: 5px;
-margin-left: 30px;}
+main{
+    
+    
+}
+#cipok ul{
+    list-style-type: none;
+}
+#cipok,#osszegzes{
+    margin: auto;
+    text-align: center;
+}
+#tabla{
+    text-align: center;
+    margin: auto;
+}
