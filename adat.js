@@ -10,7 +10,7 @@ export const CIPOLISTA =[
         tipus:"adidas",
         szin:"fekete",
         meret:[38,39,40,41,42,46],
-        ar:44000
+        ar:42000
 
     },
     {

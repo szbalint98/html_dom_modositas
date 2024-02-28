@@ -36,3 +36,41 @@ export function felsorolasOsszeallit(lista){
     console.log(txt)
     return txt;
 }
+export function osszeg(lista){
+    let osszeg=0;
+    let max=0;
+    let maxneve=""
+       for (let index = 0; index < lista.length; index++) {
+            osszeg+=lista[index].ar
+            if (max<lista[index].ar) {
+                maxneve=lista[index].tipus
+            }
+        
+    }
+    return osszeg
+}
+export function legdragabbneve(lista){
+    
+    let max=0;
+    let maxneve=""
+       for (let index = 0; index < lista.length; index++) {
+            
+            if (max<lista[index].ar) {
+                    maxneve=lista[index].tipus
+            }
+        
+    }
+    return maxneve
+}
+export function osszeg2(lista){
+    let kcipo=0;
+    
+       for (let index = 0; index < lista.length; index++) {
+            
+            if (lista[index].tipus=="körömcipő") {
+                kcipo+=1
+            }
+        
+    }
+    return kcipo
+}
