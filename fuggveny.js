@@ -55,8 +55,9 @@ export function legdragabbneve(lista){
     let maxneve=""
        for (let index = 0; index < lista.length; index++) {
             
-            if (max<lista[index].ar) {
-                    maxneve=lista[index].tipus
+            if (lista[max].ar<lista[index].ar) {
+                    max=index;
+                    maxneve=lista[max]
             }
         
     }
